@@ -6,7 +6,7 @@
  
    copyright (C) 2016 - 2017 SOHKAKUDO Ltd. All Rights Reserved.
  */
-@objc(CDVSpeechRecognition) class SpeechRecognition : CDVPlugin, TimeOutDelegate, OnFinalDelegate {
+@objc(CDVSpeechRecognition) class SpeechRecognitionSiri : CDVPlugin, TimeOutDelegate, OnFinalDelegate {
 
     fileprivate var srvc : CDVSpeechRecognitionViewController = CDVSpeechRecognitionViewController()
     fileprivate var enabled: Bool = false    
