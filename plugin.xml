@@ -11,14 +11,14 @@
   <repo></repo>
   <issue></issue>
 
-  <js-module src="www/SpeechRecognition.js" name="SpeechRecognition">
-    <clobbers target="SpeechRecognition" />
+  <js-module src="www/SpeechRecognition.js" name="SpeechRecognitionSiri">
+    <clobbers target="SpeechRecognitionSiri" />
   </js-module>
 
   <!-- ios -->
   <platform name="ios">
     <config-file target="config.xml" parent="/*">
-      <feature name="SpeechRecognition">
+      <feature name="SpeechRecognitionSiri">
         <param name="ios-package" value="CDVSpeechRecognition"/>
         <param name="onload" value="true" />
       </feature>
